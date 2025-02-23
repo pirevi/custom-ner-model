@@ -1,7 +1,7 @@
 import spacy
 from sklearn.metrics import classification_report, precision_recall_fscore_support
 from collections import defaultdict
-from custom_train_final import verify_entity_alignment, adjust_entity_offsets
+from custom_train_model import verify_entity_alignment, adjust_entity_offsets
 import utils.config as config
 import utils.data as data
 import time
