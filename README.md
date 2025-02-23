@@ -14,9 +14,10 @@ python -m venv .venv
 # After activating the virtual environment do ->
 pip install -r requirements.txt
 ```
+3. Update `src/utils/data.py` with train and test data
 
-3. Configure `src/utils/config.py` file according to your needs
+4. Configure `src/utils/config.py` file according to your needs
 
-4. Run `src/custom_train_model.py`
+5. Run `src/custom_train_model.py`
 
-5. Run `src/val_trained_model.py` to know model performance
+6. Run `src/val_trained_model.py` to know model performance
